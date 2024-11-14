@@ -11,12 +11,11 @@ print('Ответ:', add_numbers( a, b))
 
 """
 x = int
-
-def sum_list(lst):
-    lst = 0
+def sum_list(lst = []):
+    sumA = 0
     for x in lst:
         sumA = sumA + x
-        return sumA
+    return sumA
 
 lst = [1, 3, 5, 7, 11, 13]
 
