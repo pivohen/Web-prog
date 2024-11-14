@@ -2,12 +2,12 @@
 
 arr_1 = [1, 23, 561, 5, 6]
 
-print(
-    arr_1,
-    arr_1[0], # first element
-    arr_1[-1], # last element
-    len(arr_1), # count elements
-)
+# print(
+#     arr_1,
+#     arr_1[0], # first element
+#     arr_1[-1], # last element
+#     len(arr_1), # count elements
+# )
 
 # if len(arr_1) > 0:
 #     print(
@@ -41,3 +41,5 @@ for a in arr_2:
 
 
 print(id(arr_1))
+
+
